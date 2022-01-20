@@ -1,4 +1,4 @@
-package com.careerdevs.sayhello;
+package com.careerdevs;
 
 import com.careerdevs.NameGenerator;
 
