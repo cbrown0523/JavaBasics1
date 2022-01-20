@@ -8,5 +8,9 @@ public class NameGenerator {
 
 }
 
+
+
+
+
 //NON STATIC USES FIELDS create new instance
 //STATIC USES PARameters, access with dot notation

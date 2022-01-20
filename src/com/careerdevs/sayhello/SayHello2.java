@@ -1,8 +1,9 @@
-package com.careerdevs;
+package com.careerdevs.sayhello;
 
 import java.util.Scanner;
 
 public class SayHello2 {
+
     public static void whatIsYourName() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What is your name");
@@ -23,9 +24,10 @@ public class SayHello2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What city were you born in");
         String city = scanner.next();
+        System.out.println(city + " what a beautiful city!");
         System.out.println("What year were you born in");
         int year = scanner.nextInt();
-        System.out.println(city + " " + "is a nice city" + year + " " + " was a great year");
+        System.out.println(year + " " + " was a great year");
 
     }
 

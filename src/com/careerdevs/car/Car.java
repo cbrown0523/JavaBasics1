@@ -1,21 +1,19 @@
-package com.careerdevs;
+package com.careerdevs.car;
 
-public class Main {
+public class Car {
+    public String makes;
+    public String model;
+    public int mileage;
+    public float gasTankPercent;
+
+    public Car( String makes , String model , int mileage, float gasTankPercent ){
+        this.makes = makes;
+        this.model = model;
+        this.mileage = mileage;
+        this.gasTankPercent = gasTankPercent;
+    }
 
     public static void main(String[] args) {
-        String firstName = "Christine";
-        String lastName = "Brown";
-        String fullName = firstName + " " + lastName;
-
-        System.out.println(fullName);
-
-        String name = createFullName(firstName , lastName);
-        System.out.println(name);
-
-    NameGenerator printName = new NameGenerator();
-       System.out.println(printName.generateFullName("chrstine" , "brown"));
-       //NameGenerator.generateFullName()
-
         Car myCar = new Car("taurus" , "ford", 1452, 30);
         System.out.println("Make:" + " " + myCar.makes + " Model " + myCar.model + " " + "mileage " + " "+ myCar.mileage + " " + "gasTankPercent " + " " + myCar.gasTankPercent) ;
 
@@ -24,13 +22,5 @@ public class Main {
 
         Car myCar2 = new Car("intrepid" , "dodge", 188542, 70);
         System.out.println("Make:" + " " + myCar2.makes + " Model " + myCar2.model + " " + "mileage " + " "+ myCar2.mileage + " " + "gasTankPercent " + " " + myCar2.gasTankPercent) ;
-
-
-
-
-    }
-    public static String createFullName(String first , String last){
-       return  first + " " + last;
-
     }
 }

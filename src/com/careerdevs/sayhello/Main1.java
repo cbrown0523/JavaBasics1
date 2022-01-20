@@ -1,8 +1,8 @@
-package com.careerdevs;
+package com.careerdevs.sayhello;
 
 import java.util.Scanner;
 
-public class SayHello {
+public class Main1 {
     public static void  whatIsYourName() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What is your name");
