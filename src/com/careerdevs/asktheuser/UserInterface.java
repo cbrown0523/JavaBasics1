@@ -39,7 +39,7 @@ public class UserInterface {
         scan.nextLine();
         System.out.println("Great you picked a Java data type long number");
     }
-    public static void Bool(){
+    public static void getBool(){
         Scanner scan = new Scanner(System.in);
         System.out.println("Is this q and a exciting for you?");
         boolean isFun = scan.nextBoolean();
@@ -52,7 +52,7 @@ public class UserInterface {
         double doubleNum = scan.nextDouble();
         System.out.println("I cant imagine how many pennies that is");
     }
-    public static void Str(){
+    public static void getStr(){
         Scanner scan = new Scanner(System.in);
         System.out.println("What is your name?");
         String myStr = scan.next();
@@ -66,8 +66,8 @@ public class UserInterface {
         numLong();
         numShort();
         doubleNum();
-        Str();
-        Bool();
+        getStr();
+        getBool();
 
 }
 }
