@@ -3,7 +3,7 @@ package com.careerdevs.introRecursion;
 public class Recursive {
 
     public static int recursion(int countDownFrom) {
-        if(countDownFrom == 0) {
+        if(countDownFrom < 0 ) {
             return 0;
         }
         else if (countDownFrom >= 0)
@@ -14,7 +14,7 @@ public class Recursive {
     }
 
     public static void main(String[] args) {
-        Recursive myRecursion = new Recursive();
-        myRecursion.recursion(8);
+        //Recursive myRecursion = new Recursive();
+       recursion(8);
     }
 }
